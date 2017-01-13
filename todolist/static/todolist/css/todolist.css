@@ -1,0 +1,35 @@
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+#add-note{
+    color: #999;
+}
+
+.cursor-to-pointer{
+    cursor: pointer;
+}
+
+#login-text{
+    font-size: 30%;
+}
+
+.footer{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 40px;
+    border-top: 1px solid #eee;
+}
+
+textarea {
+    resize: none;
+}
+
+.login-input-width{
+    width: 35%;
+}
+
+.full-width{
+    width: 100%;
+}

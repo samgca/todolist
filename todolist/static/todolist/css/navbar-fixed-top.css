@@ -1,0 +1,50 @@
+body {
+  min-height: 2000px;
+  padding-top: 70px;
+}
+
+.navbar-page{
+	background-color: #fafafa !important;
+}
+
+@media (min-width: 400) {
+    .page-nav-item { 
+        font-size: 11px;
+    }
+    .navbar-page{
+        text-align: center;
+    }
+}
+/* Nav links */
+.page-nav-item {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #cdddeb;
+}
+.page-nav-item:hover,
+.page-nav-item:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Active state gets a caret at the bottom */
+.navbar-page .active {
+    color: #fff;
+}
+.navbar-page .active:after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin-left: -5px;
+    vertical-align: middle;
+    content: " ";
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid;
+    border-left: 5px solid transparent;
+}
+
